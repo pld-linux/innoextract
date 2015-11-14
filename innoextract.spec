@@ -2,7 +2,7 @@ Summary:	Tool to unpack installers created by Inno Setup
 Summary(pl.UTF-8):	Narzędzie do rozpakowywania instalatorów tworzonych przez Inno Setup
 Name:		innoextract
 Version:	1.3
-Release:	6
+Release:	7
 License:	BSD
 Group:		Applications/Files
 Source0:	http://downloads.sourceforge.net/innoextract/%{name}-%{version}.tar.gz
