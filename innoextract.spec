@@ -2,7 +2,7 @@ Summary:	Tool to unpack installers created by Inno Setup
 Summary(pl.UTF-8):	Narzędzie do rozpakowywania instalatorów tworzonych przez Inno Setup
 Name:		innoextract
 Version:	1.9
-Release:	5
+Release:	6
 License:	Zlib (BSD-like)
 Group:		Applications/Files
 Source0:	https://constexpr.org/innoextract/files/innoextract-%{version}/%{name}-%{version}.tar.gz
