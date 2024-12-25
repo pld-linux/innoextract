@@ -2,11 +2,12 @@ Summary:	Tool to unpack installers created by Inno Setup
 Summary(pl.UTF-8):	Narzędzie do rozpakowywania instalatorów tworzonych przez Inno Setup
 Name:		innoextract
 Version:	1.9
-Release:	6
+Release:	7
 License:	Zlib (BSD-like)
 Group:		Applications/Files
 Source0:	https://constexpr.org/innoextract/files/innoextract-%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	964f39bb3f8fd2313629e69ffd3dab9f
+Patch0:		boost-1.85.patch
 URL:		https://constexpr.org/innoextract/
 BuildRequires:	boost-devel
 BuildRequires:	bzip2-devel
@@ -32,6 +33,7 @@ instalatory utworzone przez Inno Setup w wersjach od 1.2.10 do 6.0.5.
 
 %prep
 %setup -q
+%patch -P 0 -p1
 
 %build
 install -d build
